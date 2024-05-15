@@ -1,6 +1,5 @@
-import { TerraformCloud } from '@terraform-cloud/api';
+const { TerraformCloud } = require('terraform-cloud');
 
-// Configurer l'accès à Terraform Cloud
 const terraformCloud = new TerraformCloud({
   organization: 'your-organization',
   workspace: 'your-workspace',

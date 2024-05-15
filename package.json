@@ -1,0 +1,23 @@
+{
+  "name": "f9-arcl-cmp-webapp",
+  "version": "1.0.0",
+  "description": "cmp for our scalable wordpress website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/WiTekh/F9-ARCL-CMP-webapp.git"
+  },
+  "author": "flambant9",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WiTekh/F9-ARCL-CMP-webapp/issues"
+  },
+  "homepage": "https://github.com/WiTekh/F9-ARCL-CMP-webapp#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "terraform-cloud": "^1.6.1"
+  }
+}
